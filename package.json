@@ -1,0 +1,14 @@
+{
+  "name": "uber-eats-like",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "ryotaro-tenya0727 <ryotaro123110@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@prettier/plugin-ruby": "^1.6.1",
+    "prettier": "^2.3.2"
+  },
+  "scripts": {
+    "format": "find . -name *.rb | xargs node_modules/.bin/prettier --write"
+  }
+}
